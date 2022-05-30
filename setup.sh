@@ -31,7 +31,7 @@
 
 # Install Apps
 
-        sudo dnf install sassc fzf gtk-murrine-engine gtk2-engines picom ulauncher code transmission-cli code xfce4-docklike-plugin openssl mpv lightdm-gtk-greeter-settings -y &&
+        sudo dnf install sassc fzf gtk-murrine-engine gtk2-engines picom ulauncher code transmission-cli code xfce4-docklike-plugin openssl mpv lightdm-gtk-greeter-settings materia-gtk-theme arc-theme docker -y &&
         flatpak install io.github.hmlendea.geforcenow-electron -y &&
 
 # Setup Ani-CLI
