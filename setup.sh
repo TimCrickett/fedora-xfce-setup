@@ -31,7 +31,7 @@
 
 # Install Apps
 
-        sudo dnf install sassc fzf gtk-murrine-engine gtk2-engines picom ulauncher code transmission-cli code xfce4-docklike-plugin openssl mpv lightdm-gtk-greeter-settings materia-gtk-theme arc-theme docker -y &&
+        sudo dnf install sassc fzf gtk-murrine-engine gtk2-engines picom ulauncher code transmission-cli code xfce4-docklike-plugin openssl mpv lightdm-gtk-greeter-settings -y &&
         flatpak install io.github.hmlendea.geforcenow-electron -y &&
 
 # Setup Ani-CLI
@@ -72,6 +72,13 @@
         unzip $HOME/Pictures/main.zip &&
         mv $HOME/Pictures/wallpapers-main $HOME/Pictures/wallpapers &&
         rm $HOME/Pictures/main.zip &&
+
+# Setup uLauncher Themes
+
+        wget https://github.com/athamour1/Matcha-Dark-Sea-ulauncher/archive/refs/heads/master.zip -P $HOME/Downloads &&
+        unzip $HOME/Downloads/master.zip &&
+        mv $HOME/Downloads/Matcha-Dark-Sea-ulauncher-master $HOME/.config/ulauncher/user-themes &&
+        rm $HOME/Downloads/master.zip &&
 
 # EOF
 
