@@ -26,8 +26,6 @@ fi
 
 unset rc
 
-alias kali="docker start 8391db8d3fdd ; docker attach 8391db8d3fdd"
-
 alias search="dnf search"
 
 alias install="sudo dnf install"
